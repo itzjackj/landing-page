@@ -1,0 +1,46 @@
+body {
+margin: 0;
+padding: 0;
+}
+.section1 {
+background-color: #1f2937; 
+color: white;   
+}
+.section1-header {
+padding: 40px;
+display: flex;
+justify-content: center;
+align-items: center;  
+gap: 600px;
+}
+.section1-links{
+    display: flex;
+    gap: 8px;
+}
+.section1-content{
+padding: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 28px;
+overflow-wrap: break-word;
+}
+.section1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;    
+}
+.section1-title{
+    font-size: 45px;
+    font-weight: bold; 
+}
+.section1-paragraph{
+    inline-size: 300px;   
+}
+button{
+    background-color:#3882F6;
+    border-color:#3882F6 ;
+    color: white;
+    border-radius: 18px;
+    padding: 4px 6px;
+}
