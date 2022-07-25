@@ -12,7 +12,11 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;  
-gap: 600px;
+gap: 560px;
+}
+.section1-logo{
+    font-family: "Cormorant SC";
+    font-size: 35px;
 }
 .section1-links{
 display: flex;
@@ -29,7 +33,7 @@ overflow-wrap: break-word;
 .section1-text{
     display: flex;
     flex-direction: column;
-    gap: 12px;    
+    gap: 16px;    
 }
 .section1-title{
     font-size: 45px;
@@ -38,12 +42,15 @@ overflow-wrap: break-word;
 .section1-paragraph{
     inline-size: 300px;   
 }
-button{
-    background-color:#3882F6;
-    border-color:#3882F6 ;
-    color: white;
-    border-radius: 18px;
-    padding: 4px 6px;
+.section1-button{
+    border-style: solid;
+    border-color: white;   
+    padding: 6px 12px;
+    align-self: flex-start;
+}
+.image{
+    border-style: dashed;
+    border-color: #E5E7EB;
 }
 /* section 2 */
 .section2{
@@ -54,7 +61,6 @@ button{
     gap: 50px;
     background-color: white; 
     color: black; 
-    
 }
 
 .item1{
@@ -62,7 +68,6 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 18px;
-
 }
 .item2{
     display: flex;
@@ -71,7 +76,6 @@ button{
     gap: 18px;
 }
 .item3{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,11 +89,9 @@ button{
     gap: 18px;
 }
 .s2-text{
-
     inline-size: 150px;
 }
 .section3{
-
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -98,7 +100,6 @@ button{
     gap: 12px;
     padding: 40px;
 }
-
 .quote{
     padding-left: 40px;
     color: #1F2937;
@@ -107,10 +108,53 @@ button{
     inline-size: 600px;
     font-style: italic;
 }
-.author{
-    
+.author{  
     color: #1F2937;
     font-size: 25px;
     align-self: center;
+}
+/* section 4 */
+.section4{
+    background-color: white;
+    padding: 90px 120px;
     
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    border-radius: 26px;
+    padding: 40px 40px;
+    gap: 170px;
+
+}
+.section4-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.section4-header{
+    font-size: 25px;
+}
+.signup{
+    border-style: solid;
+    border-color: white;
+    border-radius: 18px;
+    padding: 9px 21px;
+    align-self: center;
+}
+/* hyperlink styles */
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+a:hover { text-decoration: underline; }
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 40px 40px;
+}
+
