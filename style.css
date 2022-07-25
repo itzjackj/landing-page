@@ -1,11 +1,14 @@
+/* section 1 */
 body {
 margin: 0;
 padding: 0;
 background-color: #1f2937; 
 color: white;   
 }
+.section1{
+    padding: 40px;
+}
 .section1-header {
-padding: 40px;
 display: flex;
 justify-content: center;
 align-items: center;  
@@ -84,4 +87,30 @@ button{
 .s2-text{
 
     inline-size: 150px;
+}
+.section3{
+
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 40px;
+}
+
+.quote{
+    padding-left: 40px;
+    color: #1F2937;
+    font-size: 36px;
+    overflow-wrap: break-word;
+    inline-size: 600px;
+    font-style: italic;
+}
+.author{
+    
+    color: #1F2937;
+    font-size: 25px;
+    align-self: center;
+    
 }
